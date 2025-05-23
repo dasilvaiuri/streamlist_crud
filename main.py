@@ -12,7 +12,7 @@ st.set_page_config(
 
 st.write("# Bem-vindo ao Meu App CRUD! 👋")
 
-st.sidebar.success("Selecione uma página acima.")
+st.sidebar.page_link("Pages/ListarClientes.py", label="Listar Clientes")
 
 st.markdown(
     """
